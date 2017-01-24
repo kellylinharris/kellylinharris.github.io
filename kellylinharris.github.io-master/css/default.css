@@ -1,0 +1,64 @@
+<style>
+header {
+  text-align: center;
+  background: url('https://static1.squarespace.com/static/55372277e4b0799f1e54a5a5/t/5592d5dae4b03f664866633f/1435686363091/TBC-KV-7.jpg?format=2500w');
+  background-size: cover;
+  color: white;
+  min-height: 400px;
+  padding-top: 0px;
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: ;
+}
+.icon {
+  margin: 0px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+  max-width: 200px;
+}
+
+img {
+ width: cover;
+  margin: 0px;
+}
+
+ul {
+  padding: 15px;
+  margin-top: 400px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline-block;
+  padding: 20px 20px 20px 20px;
+  list-style: none;
+  font-size: 24pt;
+  font-family: helvetica, arial, sans-serif;
+
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+
+
+.google-maps iframe {
+  
+
+}
+
+</style>
