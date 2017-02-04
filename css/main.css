@@ -1,7 +1,7 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    color: #222;
+    color: #000000;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -56,18 +56,127 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*
+    * Main Nav Menu Styling
+    */
+
+   .main-nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+   }
+
+   .main-nav li {
+     margin-bottom: 2px;
+     border-bottom-width: 1px;
+     border-bottom-style: solid;
+     border-bottom-color: red;
+   }
+
+   .main-nav a {
+     background-color: orange;
+     display: block;
+     padding-top: 15px;
+     padding-right: 10px;
+     padding-bottom: 15px;
+     padding-left: 10px;
+     color: white;
+     text-decoration: none;
+     font-family: Helvetica, sans-serif;
+   }
+
+   .main-nav a:active {
+     background-color: grey;
+   }
+
+   @media screen and (min-width: 600px) {
+     .main-nav {
+       background-color: orange;
+       border-bottom: 1px solid red;
+     }
+
+     .main-nav li {
+       display: inline-block;
+       border-bottom: none;
+     }
+
+     .main-nav a {
+       background-color: transparent;
+     }
+
+     .main-nav a:hover {
+       background-color: red;
+     }
+
+     .main-nav a:hover:active {
+       background-color: grey;
+     }
+   }
+
+   @media screen and (min-width: 1024px) {
+     .main-nav {
+       font-size: 125%;
+     }
+   }
+
+p {
+ font-family: helvetica, arial, sans-serif;
+ color: #00000;
+ font-size: 20pt;
+}
+
+head {
+  font-family: helvetica, arial, sans-serif;
+  color: #00000;
+  font-size: 20pt;
+}
+
+title {
+  font-family: helvetica, arial, sans-serif;
+  color: #00000;
+  font-size: 20pt;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  color: #00000;
+  font-size: 20pt;
+}
+
+header {
+  font-family: helvetica, arial, sans-serif;
+  color: #00000;
+  font-size: 20pt;
+}
+
+div {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: normal;
+  color: #00000;
+  font-size: 20pt;
+}
+
+ul {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: normal;
+  color: #00000;
+  font-size: 20pt;
+}
 
 
+a {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: normal;
+  color: #00000;
+  font-size: 20pt;
+}
 
-
-
-
-
-
-
-
-
-
+article {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: normal;
+  color: #00000;
+  font-size: 20pt;
+}
 
 
 /* ==========================================================================
