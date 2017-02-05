@@ -134,6 +134,7 @@ textarea {
      .main-nav {
        background-color: #7a6e62;
        border-bottom: 2px solid #566249;
+       border-top: 2px solid #7a6e62;
      }
 
      .main-nav li {
