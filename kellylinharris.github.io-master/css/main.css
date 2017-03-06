@@ -95,145 +95,68 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /*
-    * Main Nav Menu Styling
-    */
 
-   .main-nav ul {
-     list-style: none;
-     padding: 0;
+   /* these are my div classes*/
+
+   div {
+     height: 200px;
+     background-color: rgba(30,51,20,1);
+     background-size: cover;
+     position: relative;
+     }
+
+   .background {
+      opacity: 1;
+      position: relative;
+      width: 2048px;
+      height: 264px;
+      margin-left: 0px;
+   }
+
+   .overlay {
+      background-color: rgba(30,51,20,1);
+      opacity: 0.5;
+      position: absolute;
+      width: 2048px;
+      height: 264px;
+      margin-left: -500px;
+   }
+
+   .tap {
+      background-color: rgba(30,51,20,1);
+      color: rgba(255,255,255,1);
+
+   }
+
+   /*these are my h classes*/
+
+   h1 {
+     color: rgba(255,255,255,1);
+     line-height: 2px;
+     text-align: center;
+     padding: 10px;
+     position: absolute;
+     bottom: 0px;
+     margin: 0px;
+   }
+
+   h2 {
+     color: rgba(255,255,255,1);
+     line-height: 28px;
+     text-align: center;
+     padding: 10px;
+     position: absolute;
+     bottom: 0;
      margin: 0;
    }
 
-   .main-nav li {
-     margin-bottom: 2px;
-     border-bottom-width: 2px;
-     border-bottom-style: solid;
-     border-bottom-color: #566249;
+   /* these are my classes for the rest of the components of the body */
+
+   body {
+     font-family: helvetica, sans-serif;
+       margin: 0 auto;
+     max-width: 600px;
    }
-
-   .main-nav a {
-     background-color: #7a6e62;
-     font-weight: 400;
-     display: block;
-     padding-top: 5px;
-     padding-right: 5px;
-     padding-bottom: 5px;
-     padding-left: 5px;
-     color: #ffffff;
-     text-decoration: none;
-     font-family: Helvetica, sans-serif;
-     padding-left: 5%;
-   }
-
-   .main-nav a:active {
-     background-color: #7a6e62;
-   }
-
-   @media screen and (min-width: 600px) {
-     .main-nav {
-       background-color: #7a6e62;
-       border-bottom: 2px solid #566249;
-     }
-
-    .main-nav li {
-       display: inline-block;
-       border-bottom: none;
-       padding-left: 5%;
-     }
-
-    .main-nav a {
-       background-color: transparent;
-     }
-
-    .main-nav a:hover {
-       background-color: #95908d;
-     }
-
-   .main-nav a:hover:active {
-       background-color: #95908d;
-     }
-   }
-
-   @media screen and (min-width: 1024px) {
-     .main-nav {
-       font-size: 125%;
-     }
-   }
-
- /*
-  * Body Styling
-  */
-
-a {
-  font-family: helvetica, arial, sans-serif;
-  font-size: 20px;
-  color: #ebebeb;
-  font-weight: normal;
-}
-
-h1 {
-  margin-left: 5%;
-  margin-top: 25px;
-  font-size: 30px;
-  color: #2e3618;
-  max-width: 600%;
-}
-
-h2 {
-  margin-top: 80px;
-}
-
-p {
-  margin-left: 5%;
-  margin-right: 5%;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 24px;
-  color: #2e3618;
-  max-width: 70%;
-  margin-top: 20px;
-   }
-
-.indent p {
-  margin-left: 20px;
-}
-
-body {
-  background-color: #ebebeb;
-}
-
-div {
-  margin-top: -50px;
-  width: 130%;
-}
-
-img {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 0px;
-}
-
-.top img {
-  width: 100%;
-  margin-bottom: 0px;
-  margin-top: -50px;
-}
-
-iframe {
-  width: 100%;
-  min-height: 400px;
-  margin-bottom: 100px;
-}
-
-li.list {
-  list-style: circle;
-  margin-left: 5.5%;
-  line-height: 15px;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 20px;
-  color: #000000;
-  margin-bottom: 5px;
-}
 
 /* ==========================================================================
    Helper classes
